@@ -8,9 +8,6 @@
 .btn{
   border-color: white;
 }
-btn1{
-  border-color: white;
-}
 .container{
   display: flex;
   justify-content: center;
@@ -18,8 +15,8 @@ btn1{
   align-items: center;
 }
 .square{
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   background-color: aquamarine;
   margin: 10px;
   display: grid;

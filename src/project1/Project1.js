@@ -14,17 +14,17 @@ const Project1 = () => {
           <span className="spans">NEW COLORS</span>
           <div>
           <button className="btn">EASY</button>
-          <button className="btn1">HARD</button>
+          <button className="btn">HARD</button>
           </div>
         </div>
         <div className="container">
           <div className="squares">
-            <div className="square"></div>
-            <div className="square"></div>
-            <div className="square"></div>
-            <div className="square"></div>
-            <div className="square"></div>
-            <div className="square"></div>
+            <div className="square" style={{borderRadius:"10px"}}></div>
+            <div className="square" style={{borderRadius:"10px"}}></div>
+            <div className="square" style={{borderRadius:"10px"}}></div>
+            <div className="square" style={{borderRadius:"10px"}}></div>
+            <div className="square" style={{borderRadius:"10px"}}></div>
+            <div className="square" style={{borderRadius:"10px"}}></div>
           </div>
         </div>
       </div>
