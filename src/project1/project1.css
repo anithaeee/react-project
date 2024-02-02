@@ -1,0 +1,31 @@
+.card-text{
+  background: darkturquoise;
+  color: white;
+}
+.buttons{
+  margin-left: 20rem;
+}
+.btn{
+  border-color: white;
+}
+btn1{
+  border-color: white;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.square{
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  margin: 10px;
+  display: grid;
+  gap: 10px;
+}
+.spans{
+  float: left;
+  color: lightblack;
+}
