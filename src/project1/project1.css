@@ -9,10 +9,9 @@
   border-color: white;
 }
 .container{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  max-width: 700px !important;
+  
+  margin: 0 auto;
 }
 .square{
   height: 150px;
@@ -21,6 +20,7 @@
   margin: 10px;
   display: grid;
   gap: 10px;
+  float: left;
 }
 .spans{
   float: left;
