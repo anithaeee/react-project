@@ -24,10 +24,10 @@ const Project1 = () => {
           <h4>GUESSING GAME</h4>
         </div>
         <div className="buttons">
-          <button className="btn">NEW COLORS</button>
+          <button className="btn1"style={{border:"none",background:"white",float:"left"}}>NEW COLORS</button>
+          <button className="btn2"style={{border:"none",background:"white"}}>EASY</button>
+          <button className="btn3"style={{border:"none",background:"white"}}>HARD</button>
           <div>
-          <button className="btn">EASY</button>
-          <button className="btn">HARD</button>
           </div>
         </div>
         <div className="container">
