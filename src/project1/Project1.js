@@ -1,7 +1,11 @@
 import React from "react";
 import "../project1/project1.css";
 import "bootstrap/dist/css/bootstrap.css";
+import { useState } from "react";
 const Project1 = () => { 
+  const [color, setcolor] = useState([]);
+  const [numofsquares, setnumofsquares] = useState(6);
+  const [pickcolor, setpickcolor]  = useState("");
   const makecolor = () => {
      let r = Math.floor(Math.random()*256);
      let g = Math.floor(Math.random()*256);
@@ -14,6 +18,16 @@ const Project1 = () => {
       arr.push(makecolor());
     }
     return arr
+  }
+  const reset = () =>{
+     let color = generatecolor(numofsquares);
+     setcolor(color);
+     let pickcolor = choosecolor();
+     setpickcolor(pickcolor);
+  }
+  const choosecolor = () =>{
+    let randomcolor =Math.floor(Math.random()*color.length);
+    return color[randomcolor];
   }
   return (
     <>
@@ -32,7 +46,7 @@ const Project1 = () => {
         </div>
         <div className="container">
             <div className="square" style={{borderRadius:"10px"}}></div>
-            <div className="square" style={{borderRadius:"10px"}}></div>
+            <div className="square" style={{borderRadius:"10px"}}></div> 
             <div className="square" style={{borderRadius:"10px"}}></div>
             <div className="square" style={{borderRadius:"10px"}}></div>
             <div className="square" style={{borderRadius:"10px"}}></div>
